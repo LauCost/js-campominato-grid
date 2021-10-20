@@ -23,6 +23,12 @@ for (i = 1; i < quadrati; i++) {
     divEl.className = "quadrato"
 
     container.append(divEl)
+
+    divEl.addEventListener(`click`, function () {
+
+        this.style.backgroundColor = "cyan"
+    })
 }
+
 
 
