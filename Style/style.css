@@ -21,3 +21,7 @@ body{
     border: 1px solid white;
 }
 
+.numero{
+    text-align: center;
+    line-height: 100px;
+}

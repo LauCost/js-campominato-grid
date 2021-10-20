@@ -24,6 +24,8 @@ for (i = 1; i < quadrati; i++) {
 
     container.append(divEl)
 
+    divEl.innerHTML += `<p class="numero"> ${i} </p>`
+
     divEl.addEventListener(`click`, function () {
 
         this.style.backgroundColor = "cyan"
