@@ -8,15 +8,16 @@ body{
     background-color: #000000bf;
 }
 
-.container{
-    width: 70%;
+.cont{
+    width: 50%;
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .quadrato{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 1px solid white;
 }
+
